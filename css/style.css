@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('components/container.css');
+@import url('components/banner.css');
+
+body{
+    background-color: #DBC4A0;
+}
+
+.event-box {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+}
+
+.box {
+    display: flex; /* Added to allow flex layout */
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #A38E6C;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.button-blue {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #4B2E02;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    border-radius: 15%;
+    margin-right: 20px; /* Add some space between the image and text */
+}

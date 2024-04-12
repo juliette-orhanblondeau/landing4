@@ -1,0 +1,23 @@
+
+
+.event-box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #A38E6C;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+
+img {
+  width: 0%;
+  height: auto;
+}
